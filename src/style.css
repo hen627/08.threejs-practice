@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    /* overflow hidden is necessary to make it impossible to scroll beyond the canvas */
+}
+
+/* this below targets the webgl canvas and moves it to the top left, removing the scrollbar */
+.webgl 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    /* the above removes an outline if the browser is showing that */
+}
